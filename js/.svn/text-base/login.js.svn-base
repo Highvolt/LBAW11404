@@ -1,0 +1,147 @@
+function start() {
+	
+	$.getJSON('API/utilizadores/obter.php', function(data) {
+		if(data) {
+			console.log("logged");
+			$('#login_form').css("display", "none");
+			$('#page').animate({
+				'opacity' : 0,
+				'top' : '100%'
+			}, 2000, function() {
+				initcal();
+				$('#page').css({
+					'background' : 'none',
+					'top' : '14%'
+				});
+				$('#page').animate({
+					'opacity' : '1'
+				}, 2000);
+			});
+
+			$('#user_status').remove();
+			$('<div>').attr('id', 'user_status').appendTo('#inner_info_box');
+			$('<p>').html('Olá, ' + data['nome'] + '!').appendTo('#user_status');
+			if(data['img'] != null) {
+				$('<img>').attr({
+					"src" : data['img'],
+					"height" : '70'
+				}).css({
+					'position' : 'absolute',
+					'right' : '5%'
+				}).prependTo('#user_status');
+			}
+			$('<input>').attr({
+				'type' : 'button',
+				'value' : 'Sair'
+			}).click(function() {
+				$.getJSON('API/utilizadores/sair.php', function(data) {
+					window.location.reload();
+				});
+
+			}).appendTo('#user_status');
+		} else {
+			console.log("not logged");
+
+			$.ajax({
+				url : 'templates/login.html',
+
+			}).done(function(msg) {
+				$('#user_status').remove();
+				$('<div>').attr('id', 'user_status').html(msg).appendTo('#inner_info_box');
+				login_button();
+				registarb();
+				$('#rec').click(function() {
+				$.ajax({
+					url : 'templates/recover_pass.html',
+
+				}).done(function(msg) {
+					$('#user_status').remove();
+					$('<div>').attr('id', 'user_status').html(msg).appendTo('#inner_info_box');
+					captcha();
+				});
+		
+		});
+			});
+
+		}
+	});
+}
+
+function registarb() {
+	$('#reg').click(function() {
+		$.ajax({
+			url : 'templates/registar.html',
+
+		}).done(function(msg) {
+			$('#user_status').remove();
+			$('<div>').attr('id', 'user_status').html(msg).appendTo('#inner_info_box');
+			$('#regist_b').click(registbutton);
+			$('#regist_c').click(function() {
+				start();
+			});
+		});
+	});
+
+}
+
+function login_button() {
+	$("#login_b").click(function() {
+
+		$.ajax({
+			url : 'API/utilizadores/entrar.php',
+			dataType : 'json',
+			data : {
+				'username' : $('#username').val(),
+				'password' : $('#password').val()
+			},
+			type : 'POST'
+
+		}).done(function(msg) {
+			$.getJSON('API/utilizadores/update_google_calendar_data.php', function(msg) {
+				console.log(msg);
+			});
+			console.log(msg);
+			start();
+		});
+		$("#login_b").remove();
+		$('<p>').html('A entrar...').appendTo('#login_form');
+
+	});
+
+}
+
+var Params;
+
+$(document).ready(function() {
+	Params = getUrlVars();
+	if( typeof Params['code'] !== "undefined" && Params['code']) {
+
+		$.ajax({
+			url : 'API/utilizadores/recuperar_password.php',
+			dataType : 'json',
+			data : {
+				'code' : Params['code'],
+				'ts' : Params['ts'],
+				'username' : Params['username']
+			}
+
+		}).done(function(msg) {
+			console.log(msg);
+			if(msg == "ok") {
+				$.ajax({
+					url : 'templates/new_pass.html',
+
+				}).done(function(msg) {
+					$('#user_status').remove();
+					$('<div>').attr('id', 'user_status').html(msg).appendTo('#inner_info_box');
+				});
+			}else{
+				alert(msg);
+				start();
+			}
+		});
+	} else {
+		start();
+	}
+
+});

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/repos/lbaw11404/!svn/ver/21/trunk/lbaw11404/templates
+END
+new_pass.html
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/lbaw11404/!svn/ver/21/trunk/lbaw11404/templates/new_pass.html
+END
+registar.html
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/lbaw11404/!svn/ver/19/trunk/lbaw11404/templates/registar.html
+END
+login.html
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repos/lbaw11404/!svn/ver/21/trunk/lbaw11404/templates/login.html
+END
+recover_pass.html
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/lbaw11404/!svn/ver/21/trunk/lbaw11404/templates/recover_pass.html
+END

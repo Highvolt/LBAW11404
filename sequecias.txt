@@ -1,0 +1,2 @@
+CREATE SEQUENCE utilizador_id_seq;
+ALTER TABLE utilizador ALTER COLUMN utilizadorid SET DEFAULT nextval('utilizador_id_seq');

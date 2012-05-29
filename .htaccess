@@ -1,0 +1,5 @@
+ RewriteEngine On
+ RewriteBase    /~ei09063/lbaw2/
+ RewriteRule ^user/(.*)$  ?user=$1 [R]
+ RewriteRule ^event/(.*)$ ?event=$1 [R]
+ErrorDocument 404 /~ei09063/lbaw2/404.html

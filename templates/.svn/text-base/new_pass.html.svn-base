@@ -1,0 +1,12 @@
+<form id="recover_form">
+	<h1>Nova Password:</h1>
+	<br />
+	<label for="rpassword1">Palavra-passe: </label>
+	<input type="password" id="rpassword1" />
+	<br />
+	<label for="rpassword2">Palavra-passe: </label>
+	<input type="password" id="rpassword2" />
+	<br />
+	<input type="button" id="recover_b" value="Confirmar"/>
+	
+</form>

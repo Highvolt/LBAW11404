@@ -1,0 +1,173 @@
+<script type="text/javascript">
+	var watchClose;
+
+	function afterauth() {
+		$.getJSON('API/utilizadores/entrar_google.php?get=1', function(data) {
+			if(data['logged'] == 1) {
+				$('#regist_n').animate({
+					'opacity' : '0'
+				}, 1000, function() {
+					$('#regist_n').remove();
+				});
+				$("#status_g").remove();
+				$('<div>').attr("id", "status_g").css({
+					'display' : 'inline-block',
+					'color' : '#1B5A04',
+					'margin' : '0'
+				}).appendTo('#regist');
+				$('<b>').html('✔').appendTo('#status_g');
+				$('<b>').html(data['email']).appendTo('#status_g');
+				$('<br>').appendTo('#regist');
+				$('<label>').html('username').attr("for", "username_g").appendTo("#regist");
+				$('<input>').attr({
+					'type' : 'text',
+					'id' : 'username_g'
+				}).appendTo('#regist');
+				$('<br>').appendTo('#regist');
+				$('<label>').html('password').attr("for", "password_g").appendTo("#regist");
+				$('<input>').attr({
+					'type' : 'password',
+					'id' : 'password_g'
+				}).appendTo('#regist');
+				$('<br>').appendTo('#regist');
+				$('<input>').attr({
+					'type' : 'button',
+					'id' : 'regist_g'
+				}).attr('value', 'Registar').click(function() {
+					$.ajax({
+						url : 'API/utilizadores/adicionar.php',
+						dataType : 'json',
+						data : {
+							'username' : $('#username_g').val(),
+							'password' : $('#password_g').val(),
+							'nome' : data['name'],
+							'email' : data['email']
+						},
+						type : 'POST'
+
+					}).done(function(msg) {
+						console.log(msg);
+						if(msg == "ok") {
+							$.getJSON('API/utilizadores/update_google_calendar_data.php', function(msg) {
+								console.log(msg);
+							});
+							start();
+						} else {
+							alert(msg);
+						}
+					});
+				}).appendTo('#regist');
+			}
+		});
+	}
+
+	function registbutton() {
+		console.log('click');
+		if($('#passwordr1').val() == $('#passwordr2').val()) {
+			$.ajax({
+				url : 'API/utilizadores/adicionar.php',
+				dataType : 'json',
+				data : {
+					'username' : $('#usernamer').val(),
+					'password' : $('#passwordr1').val(),
+					'nome' : $('#nomer').val(),
+					'email' : $('#emailr').val(),
+					'numero' : $('#numeror').val()
+				},
+				type : 'POST'
+
+			}).done(function(msg) {
+				console.log(msg);
+				if(msg == "ok") {
+					start();
+					$.getJSON('API/utilizadores/update_google_calendar_data.php', function(msg) {
+						console.log(msg);
+					});
+				} else {
+					alert(msg);
+				}
+			});
+		} else {
+			alert('As palavras-passe não coincidem');
+			$('#passwordr1').css({
+				'color' : 'red',
+				'background-color' : 'black'
+			});
+			$('#passwordr2').css({
+				'color' : 'red',
+				'background-color' : 'black'
+			});
+		}
+	}
+
+
+	$('#regist_b').ready(function() {
+		console.log('registar button');
+		$('#regist_b').click(registbutton);
+	});
+
+	$("#regist").ready(function() {
+		console.log('regist loaded');
+
+		$.getJSON('API/utilizadores/sair.php', function(data) {
+			$.getJSON('API/utilizadores/entrar_google.php?get=1', function(data) {
+				if(data['logged'] == 0) {
+					console.log('not logged using google');
+
+					$('#login_g').click(function() {
+						var newWindow = window.open(data['url'], 'name', 'height=450,width=450');
+						watchClose = setInterval(function() {
+
+							try {
+								if(newWindow.window.closed) {
+									afterauth();
+									clearTimeout(watchClose);
+
+								} else {
+									//console.log('run');
+								}
+							} catch (e) {
+								afterauth();
+								clearTimeout(watchClose);
+							}
+						}, 200);
+						if(window.focus) {
+							newWindow.focus();
+						}
+
+					});
+				} else {
+					console.log('logged by google');
+				}
+			});
+		});
+	}); 
+</script>
+
+<form id="regist">
+	<!--morada,nome,numero,password,username,email-->
+
+	<h1>Registar:</h1><label for="nomer">Nome: </label>
+	<input type="text" id="nomer" />
+	<br />
+	<label for="numeror">Numero: </label>
+	<input type="text" id="numeror" />
+	<br />
+	<label for="emailr">Email: </label>
+	<input type="text" id="emailr" />
+	<br />
+	<label for="usernamer">Nome de Utilizador: </label>
+	<input type="text" id="usernamer" />
+	<br />
+	<label for="passwordr1">Palavra-passe: </label>
+	<input type="password" id="passwordr1" />
+	<br />
+	<label for="passwordr2">Confirmar: </label>
+	<input type="password" id="passwordr2" />
+	<br />
+	<input type="button" id="regist_b" onclick="registbutton" value="Registar"/>
+	<input type="button" id="regist_c" value="Cancelar"/>
+
+	<h1>Or using <img height="32px" src="imgs/icon48google.png" alt="Google"/>:</h1>
+	<input type="button" id="login_g" value="Autorizar"/>
+</form>

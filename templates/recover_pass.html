@@ -1,0 +1,36 @@
+
+<script type="text/javascript">
+	 var a = Math.ceil(Math.random() * 10);
+    var b = Math.ceil(Math.random() * 10);       
+    var c = a + b;
+    function captcha () {
+      //$('<input>').attr({'id':'captcha', 'type':'text','maxlength':'2','size':'2'}).prependTo('#recover_pass_form');
+		$('#c_lable').html("Quanto é "+ a + " + " + b +"? ");
+		$('#recover_pass_b').click(function() {
+			if($('#captcha').val()==c){
+				
+			}else{
+				captcha();
+			}
+		
+		});
+    }
+    
+    
+	$('#recover_pass_form').ready(function(){
+				//
+		
+		captcha();
+	});
+</script>
+<form id="recover_pass_form">
+	<h1>Recuperar password:</h1>
+	<br />
+	<label for="rusername">Utilizador: </label>
+	<input type="text" id="rusername" />
+	<br />
+	<label id="c_lable" for="captcha"></label>
+	<input id='captcha' type='text' maxlength='2' size='2'/>
+	<input type="button" id="recover_pass_b" value="Confirmar"/>
+	
+</form>

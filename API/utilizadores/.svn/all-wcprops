@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/repos/lbaw11404/!svn/ver/21/trunk/lbaw11404/API/utilizadores
+END
+adicionar.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/lbaw11404/!svn/ver/19/trunk/lbaw11404/API/utilizadores/adicionar.php
+END
+recuperar_password.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/lbaw11404/!svn/ver/21/trunk/lbaw11404/API/utilizadores/recuperar_password.php
+END
+entrar.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/lbaw11404/!svn/ver/19/trunk/lbaw11404/API/utilizadores/entrar.php
+END
+obter.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/lbaw11404/!svn/ver/16/trunk/lbaw11404/API/utilizadores/obter.php
+END
+calendario_google.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/lbaw11404/!svn/ver/18/trunk/lbaw11404/API/utilizadores/calendario_google.php
+END
+sair.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/lbaw11404/!svn/ver/13/trunk/lbaw11404/API/utilizadores/sair.php
+END
+get_google_events.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/lbaw11404/!svn/ver/19/trunk/lbaw11404/API/utilizadores/get_google_events.php
+END
+update_google_calendar_data.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/lbaw11404/!svn/ver/19/trunk/lbaw11404/API/utilizadores/update_google_calendar_data.php
+END
+entrar_google.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/lbaw11404/!svn/ver/15/trunk/lbaw11404/API/utilizadores/entrar_google.php
+END

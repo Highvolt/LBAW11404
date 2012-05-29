@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/repos/lbaw11404/!svn/ver/12/trunk/lbaw11404/Google_API/src/io
+END
+apiCacheParser.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/lbaw11404/!svn/ver/12/trunk/lbaw11404/Google_API/src/io/apiCacheParser.php
+END
+apiRPC.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/lbaw11404/!svn/ver/12/trunk/lbaw11404/Google_API/src/io/apiRPC.php
+END
+cacerts.pem
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/lbaw11404/!svn/ver/12/trunk/lbaw11404/Google_API/src/io/cacerts.pem
+END
+apiIO.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/lbaw11404/!svn/ver/12/trunk/lbaw11404/Google_API/src/io/apiIO.php
+END
+apiHttpRequest.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/lbaw11404/!svn/ver/12/trunk/lbaw11404/Google_API/src/io/apiHttpRequest.php
+END
+apiCurlIO.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/lbaw11404/!svn/ver/12/trunk/lbaw11404/Google_API/src/io/apiCurlIO.php
+END
+apiREST.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/lbaw11404/!svn/ver/12/trunk/lbaw11404/Google_API/src/io/apiREST.php
+END

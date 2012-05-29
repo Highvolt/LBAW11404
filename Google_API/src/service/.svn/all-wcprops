@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/lbaw11404/!svn/ver/12/trunk/lbaw11404/Google_API/src/service
+END
+apiModel.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/lbaw11404/!svn/ver/12/trunk/lbaw11404/Google_API/src/service/apiModel.php
+END
+apiService.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/lbaw11404/!svn/ver/12/trunk/lbaw11404/Google_API/src/service/apiService.php
+END
+apiUtils.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/lbaw11404/!svn/ver/12/trunk/lbaw11404/Google_API/src/service/apiUtils.php
+END
+apiBatch.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/lbaw11404/!svn/ver/12/trunk/lbaw11404/Google_API/src/service/apiBatch.php
+END
+apiMediaFileUpload.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/lbaw11404/!svn/ver/12/trunk/lbaw11404/Google_API/src/service/apiMediaFileUpload.php
+END
+apiServiceResource.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/lbaw11404/!svn/ver/12/trunk/lbaw11404/Google_API/src/service/apiServiceResource.php
+END
+apiServiceRequest.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/lbaw11404/!svn/ver/12/trunk/lbaw11404/Google_API/src/service/apiServiceRequest.php
+END
