@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/repos/lbaw11404/!svn/ver/22/trunk/lbaw11404/API/reuniao
+END
+responderdisponibilidade.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/lbaw11404/!svn/ver/28/trunk/lbaw11404/API/reuniao/responderdisponibilidade.php
+END
+notificar_convidados.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/lbaw11404/!svn/ver/28/trunk/lbaw11404/API/reuniao/notificar_convidados.php
+END
+adic_data.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/lbaw11404/!svn/ver/27/trunk/lbaw11404/API/reuniao/adic_data.php
+END
+respostas_reunião.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/lbaw11404/!svn/ver/28/trunk/lbaw11404/API/reuniao/respostas_reuni%C3%A3o.php
+END
+obter_reunioes_convidado.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/lbaw11404/!svn/ver/28/trunk/lbaw11404/API/reuniao/obter_reunioes_convidado.php
+END
+convidar.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/lbaw11404/!svn/ver/28/trunk/lbaw11404/API/reuniao/convidar.php
+END
+aprovar_convite.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/lbaw11404/!svn/ver/28/trunk/lbaw11404/API/reuniao/aprovar_convite.php
+END
+criaReuniao.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/lbaw11404/!svn/ver/27/trunk/lbaw11404/API/reuniao/criaReuniao.php
+END
+datas_reuniao.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/lbaw11404/!svn/ver/28/trunk/lbaw11404/API/reuniao/datas_reuniao.php
+END

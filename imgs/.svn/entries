@@ -1,9 +1,9 @@
 10
 
 dir
-21
-https://svn.fe.up.pt/repos/lbaw11404/trunk/lbaw11404/imgs
-https://svn.fe.up.pt/repos/lbaw11404
+23
+http://svn.fe.up.pt/repos/lbaw11404/trunk/lbaw11404/imgs
+http://svn.fe.up.pt/repos/lbaw11404
 
 
 
@@ -12,7 +12,7 @@ https://svn.fe.up.pt/repos/lbaw11404
 ei09063
 
 
-
+svn:special svn:externals svn:needs-lock
 
 
 
@@ -25,40 +25,13 @@ ei09063
 
 
 6cdc1ebb-d8b6-41a6-9179-64968aa3b53a
-
-screenshot.png
-file
-
-
-
-
-2012-05-22T23:33:43.388776Z
-73f5b3295a34b087c1b786af3932aa81
-2012-05-21T10:25:08.560376Z
-21
-ei09063
-has-props
 
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-285679
+0
 
 icon48google.png
 file
@@ -66,7 +39,7 @@ file
 
 
 
-2012-05-22T23:33:43.625486Z
+2012-05-29T15:28:06.000000Z
 f31c51ab2f8da47915ffef11ed9165dc
 2012-04-25T00:14:14.210350Z
 13
@@ -93,4 +66,38 @@ has-props
 
 
 1644
+
+screenshot.png
+file
+
+
+
+
+2012-05-29T15:28:06.000000Z
+73f5b3295a34b087c1b786af3932aa81
+2012-05-21T10:25:08.560376Z
+21
+ei09063
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+285679
 

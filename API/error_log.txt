@@ -1,0 +1,50 @@
+[29-May-2012 23:22:11] PHP Notice:  Undefined index:  utilizadorid in /usr/users2/mieic2009/ei09063/public_html/lbaw2/API/grupo/convidar.php on line 6
+[29-May-2012 23:25:57] PHP Notice:  Undefined index:  tipo in /usr/users2/mieic2009/ei09063/public_html/lbaw2/API/grupo/convidar.php on line 19
+[29-May-2012 23:25:57] PHP Fatal error:  Cannot pass parameter 2 by reference in /usr/users2/mieic2009/ei09063/public_html/lbaw2/API/grupo/convidar.php on line 22
+[29-May-2012 23:26:51] PHP Notice:  Undefined index:  tipo in /usr/users2/mieic2009/ei09063/public_html/lbaw2/API/grupo/convidar.php on line 19
+[29-May-2012 23:26:51] PHP Fatal error:  Cannot pass parameter 2 by reference in /usr/users2/mieic2009/ei09063/public_html/lbaw2/API/grupo/convidar.php on line 22
+[29-May-2012 23:26:52] PHP Notice:  Undefined index:  tipo in /usr/users2/mieic2009/ei09063/public_html/lbaw2/API/grupo/convidar.php on line 19
+[29-May-2012 23:26:52] PHP Fatal error:  Cannot pass parameter 2 by reference in /usr/users2/mieic2009/ei09063/public_html/lbaw2/API/grupo/convidar.php on line 22
+[29-May-2012 23:26:53] PHP Notice:  Undefined index:  tipo in /usr/users2/mieic2009/ei09063/public_html/lbaw2/API/grupo/convidar.php on line 19
+[29-May-2012 23:26:53] PHP Fatal error:  Cannot pass parameter 2 by reference in /usr/users2/mieic2009/ei09063/public_html/lbaw2/API/grupo/convidar.php on line 22
+[29-May-2012 23:26:53] PHP Notice:  Undefined index:  tipo in /usr/users2/mieic2009/ei09063/public_html/lbaw2/API/grupo/convidar.php on line 19
+[29-May-2012 23:26:53] PHP Fatal error:  Cannot pass parameter 2 by reference in /usr/users2/mieic2009/ei09063/public_html/lbaw2/API/grupo/convidar.php on line 22
+[29-May-2012 23:26:53] PHP Notice:  Undefined index:  tipo in /usr/users2/mieic2009/ei09063/public_html/lbaw2/API/grupo/convidar.php on line 19
+[29-May-2012 23:26:53] PHP Fatal error:  Cannot pass parameter 2 by reference in /usr/users2/mieic2009/ei09063/public_html/lbaw2/API/grupo/convidar.php on line 22
+[29-May-2012 23:26:53] PHP Notice:  Undefined index:  tipo in /usr/users2/mieic2009/ei09063/public_html/lbaw2/API/grupo/convidar.php on line 19
+[29-May-2012 23:26:53] PHP Fatal error:  Cannot pass parameter 2 by reference in /usr/users2/mieic2009/ei09063/public_html/lbaw2/API/grupo/convidar.php on line 22
+[29-May-2012 23:26:54] PHP Notice:  Undefined index:  tipo in /usr/users2/mieic2009/ei09063/public_html/lbaw2/API/grupo/convidar.php on line 19
+[29-May-2012 23:26:54] PHP Fatal error:  Cannot pass parameter 2 by reference in /usr/users2/mieic2009/ei09063/public_html/lbaw2/API/grupo/convidar.php on line 22
+[29-May-2012 23:26:54] PHP Notice:  Undefined index:  tipo in /usr/users2/mieic2009/ei09063/public_html/lbaw2/API/grupo/convidar.php on line 19
+[29-May-2012 23:26:54] PHP Fatal error:  Cannot pass parameter 2 by reference in /usr/users2/mieic2009/ei09063/public_html/lbaw2/API/grupo/convidar.php on line 22
+[29-May-2012 23:27:23] PHP Notice:  Undefined index:  tipo in /usr/users2/mieic2009/ei09063/public_html/lbaw2/API/grupo/convidar.php on line 19
+[29-May-2012 23:27:23] PHP Fatal error:  Cannot pass parameter 2 by reference in /usr/users2/mieic2009/ei09063/public_html/lbaw2/API/grupo/convidar.php on line 22
+[29-May-2012 23:27:23] PHP Notice:  Undefined index:  tipo in /usr/users2/mieic2009/ei09063/public_html/lbaw2/API/grupo/convidar.php on line 19
+[29-May-2012 23:27:23] PHP Fatal error:  Cannot pass parameter 2 by reference in /usr/users2/mieic2009/ei09063/public_html/lbaw2/API/grupo/convidar.php on line 22
+[29-May-2012 23:28:22] PHP Notice:  Undefined index:  tipo in /usr/users2/mieic2009/ei09063/public_html/lbaw2/API/grupo/convidar.php on line 19
+[29-May-2012 23:28:22] PHP Fatal error:  Cannot pass parameter 2 by reference in /usr/users2/mieic2009/ei09063/public_html/lbaw2/API/grupo/convidar.php on line 22
+[29-May-2012 23:28:23] PHP Notice:  Undefined index:  tipo in /usr/users2/mieic2009/ei09063/public_html/lbaw2/API/grupo/convidar.php on line 19
+[29-May-2012 23:28:23] PHP Fatal error:  Cannot pass parameter 2 by reference in /usr/users2/mieic2009/ei09063/public_html/lbaw2/API/grupo/convidar.php on line 22
+[29-May-2012 23:28:23] PHP Notice:  Undefined index:  tipo in /usr/users2/mieic2009/ei09063/public_html/lbaw2/API/grupo/convidar.php on line 19
+[29-May-2012 23:28:23] PHP Fatal error:  Cannot pass parameter 2 by reference in /usr/users2/mieic2009/ei09063/public_html/lbaw2/API/grupo/convidar.php on line 22
+[29-May-2012 23:28:23] PHP Notice:  Undefined index:  tipo in /usr/users2/mieic2009/ei09063/public_html/lbaw2/API/grupo/convidar.php on line 19
+[29-May-2012 23:28:23] PHP Fatal error:  Cannot pass parameter 2 by reference in /usr/users2/mieic2009/ei09063/public_html/lbaw2/API/grupo/convidar.php on line 22
+[29-May-2012 23:28:23] PHP Notice:  Undefined index:  tipo in /usr/users2/mieic2009/ei09063/public_html/lbaw2/API/grupo/convidar.php on line 19
+[29-May-2012 23:28:23] PHP Fatal error:  Cannot pass parameter 2 by reference in /usr/users2/mieic2009/ei09063/public_html/lbaw2/API/grupo/convidar.php on line 22
+[29-May-2012 23:28:24] PHP Notice:  Undefined index:  tipo in /usr/users2/mieic2009/ei09063/public_html/lbaw2/API/grupo/convidar.php on line 19
+[29-May-2012 23:28:24] PHP Fatal error:  Cannot pass parameter 2 by reference in /usr/users2/mieic2009/ei09063/public_html/lbaw2/API/grupo/convidar.php on line 22
+[29-May-2012 23:28:24] PHP Notice:  Undefined index:  tipo in /usr/users2/mieic2009/ei09063/public_html/lbaw2/API/grupo/convidar.php on line 19
+[29-May-2012 23:28:24] PHP Fatal error:  Cannot pass parameter 2 by reference in /usr/users2/mieic2009/ei09063/public_html/lbaw2/API/grupo/convidar.php on line 22
+[29-May-2012 23:28:24] PHP Notice:  Undefined index:  tipo in /usr/users2/mieic2009/ei09063/public_html/lbaw2/API/grupo/convidar.php on line 19
+[29-May-2012 23:28:24] PHP Fatal error:  Cannot pass parameter 2 by reference in /usr/users2/mieic2009/ei09063/public_html/lbaw2/API/grupo/convidar.php on line 22
+[29-May-2012 23:28:24] PHP Notice:  Undefined index:  tipo in /usr/users2/mieic2009/ei09063/public_html/lbaw2/API/grupo/convidar.php on line 19
+[29-May-2012 23:28:24] PHP Fatal error:  Cannot pass parameter 2 by reference in /usr/users2/mieic2009/ei09063/public_html/lbaw2/API/grupo/convidar.php on line 22
+[29-May-2012 23:28:24] PHP Notice:  Undefined index:  tipo in /usr/users2/mieic2009/ei09063/public_html/lbaw2/API/grupo/convidar.php on line 19
+[29-May-2012 23:28:24] PHP Fatal error:  Cannot pass parameter 2 by reference in /usr/users2/mieic2009/ei09063/public_html/lbaw2/API/grupo/convidar.php on line 22
+[29-May-2012 23:28:24] PHP Notice:  Undefined index:  tipo in /usr/users2/mieic2009/ei09063/public_html/lbaw2/API/grupo/convidar.php on line 19
+[29-May-2012 23:28:24] PHP Fatal error:  Cannot pass parameter 2 by reference in /usr/users2/mieic2009/ei09063/public_html/lbaw2/API/grupo/convidar.php on line 22
+[29-May-2012 23:28:53] PHP Notice:  Undefined index:  tipo in /usr/users2/mieic2009/ei09063/public_html/lbaw2/API/grupo/convidar.php on line 19
+[29-May-2012 23:28:53] PHP Warning:  PDOStatement::bindParam() [<a href='pdostatement.bindparam'>pdostatement.bindparam</a>]: SQLSTATE[HY093]: Invalid parameter number: :tip in /usr/users2/mieic2009/ei09063/public_html/lbaw2/API/grupo/convidar.php on line 23
+[29-May-2012 23:29:43] PHP Notice:  Undefined index:  tipo in /usr/users2/mieic2009/ei09063/public_html/lbaw2/API/grupo/convidar.php on line 19
+[29-May-2012 23:35:59] PHP Fatal error:  Call to undefined function json_enconde() in /usr/users2/mieic2009/ei09063/public_html/lbaw2/API/grupo/block_user.php on line 27
+[30-May-2012 00:48:15] PHP Notice:  Undefined index:  tipo in /usr/users2/mieic2009/ei09063/public_html/lbaw2/API/grupo/mudar_tipo.php on line 5

@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 48
-/repos/lbaw11404/!svn/ver/21/trunk/lbaw11404/API
+/repos/lbaw11404/!svn/ver/23/trunk/lbaw11404/API
 END
 init.php
 K 25
@@ -14,4 +14,10 @@ K 25
 svn:wc:ra_dav:version-url
 V 57
 /repos/lbaw11404/!svn/ver/3/trunk/lbaw11404/API/index.php
+END
+error_log.txt
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/repos/lbaw11404/!svn/ver/27/trunk/lbaw11404/API/error_log.txt
 END

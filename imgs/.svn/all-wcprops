@@ -3,15 +3,15 @@ svn:wc:ra_dav:version-url
 V 49
 /repos/lbaw11404/!svn/ver/21/trunk/lbaw11404/imgs
 END
-screenshot.png
-K 25
-svn:wc:ra_dav:version-url
-V 64
-/repos/lbaw11404/!svn/ver/21/trunk/lbaw11404/imgs/screenshot.png
-END
 icon48google.png
 K 25
 svn:wc:ra_dav:version-url
 V 66
 /repos/lbaw11404/!svn/ver/13/trunk/lbaw11404/imgs/icon48google.png
+END
+screenshot.png
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repos/lbaw11404/!svn/ver/21/trunk/lbaw11404/imgs/screenshot.png
 END

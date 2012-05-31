@@ -4,6 +4,9 @@ function start() {
 		if(data) {
 			console.log("logged");
 			$('#login_form').css("display", "none");
+			$('#userbox').animate({
+					'top' : '0%'
+				}, 2000);
 			$('#page').animate({
 				'opacity' : 0,
 				'top' : '100%'
@@ -16,21 +19,13 @@ function start() {
 				$('#page').animate({
 					'opacity' : '1'
 				}, 2000);
+				
 			});
-
+			
 			$('#user_status').remove();
-			$('<div>').attr('id', 'user_status').appendTo('#inner_info_box');
-			$('<p>').html('Olá, ' + data['nome'] + '!').appendTo('#user_status');
-			if(data['img'] != null) {
-				$('<img>').attr({
-					"src" : data['img'],
-					"height" : '70'
-				}).css({
-					'position' : 'absolute',
-					'right' : '5%'
-				}).prependTo('#user_status');
-			}
-			$('<input>').attr({
+			$('<div>').attr('id', 'user_status').appendTo('#userbox');
+			$('<x>').html('Olá, ' + data['nome'] + '!').appendTo('#user_status');
+			$('<input>').css({'margin-left':'5%'}).attr({
 				'type' : 'button',
 				'value' : 'Sair'
 			}).click(function() {
@@ -39,6 +34,34 @@ function start() {
 				});
 
 			}).appendTo('#user_status');
+			if(data['img'] != null) {
+					$('<img>').attr({
+						"id" : 'imagemPerfil',
+						"src" : data['img'],
+						"height" : '80%'
+					}).css({
+						'position' : 'absolute',
+						'right' : '5%'
+					}).prependTo('#user_status');
+					$('#imagemPerfil').click(function() {
+						//alert("CLICK");
+						$.ajax({
+							url : 'templates/perfil.html'
+						}).done(function(msg) {
+							//$('#user_status').remove();
+							$('#user_menus').remove();
+							$('#calendar_space2').remove();
+							$('<div>').attr('id', 'user_status').html(msg).appendTo('#inner_info_box');
+						});
+					});
+			}
+			
+			$.ajax({
+				url : 'templates/menus.html'
+			}).done(function(msg) {
+				$('<div>').attr('id', 'user_menus').html(msg).appendTo('#inner_info_box');
+			});
+			//alert('AZUL');
 		} else {
 			console.log("not logged");
 
@@ -83,6 +106,14 @@ function registarb() {
 	});
 
 }
+
+/*function criarReuniao() {
+	$('#user_criar_reuniao').click(function() {
+		$.ajax({
+			url : 'API/re',
+		});
+	});
+}*/
 
 function login_button() {
 	$("#login_b").click(function() {

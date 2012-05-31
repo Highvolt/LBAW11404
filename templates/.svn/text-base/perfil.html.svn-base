@@ -1,0 +1,15 @@
+
+<form id="perfil_from">
+<h1>Pagina de Perfil</h1>
+<br />
+<label id="meusDados"> Meus Dados </label>
+<br />
+<label id="minhasReunioes"> Minhas Reunioes </label>
+<br />
+<label id="meusGrupos"> Meus Grupos </label>
+<br />
+<label id="verContactos"> Ver Contactos </label>
+<br />
+<label id="infoGeral"> Info Geral </label>
+
+</form>

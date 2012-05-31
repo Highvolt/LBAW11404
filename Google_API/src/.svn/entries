@@ -1,12 +1,46 @@
 10
 
 dir
-21
-https://svn.fe.up.pt/repos/lbaw11404/trunk/lbaw11404/Google_API/src
-https://svn.fe.up.pt/repos/lbaw11404
+23
+http://svn.fe.up.pt/repos/lbaw11404/trunk/lbaw11404/Google_API/src
+http://svn.fe.up.pt/repos/lbaw11404
 
 
 
+2012-04-23T16:28:30.904106Z
+12
+ei09063
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+6cdc1ebb-d8b6-41a6-9179-64968aa3b53a
+
+
+
+
+
+
+0
+
+apiClient.php
+file
+
+
+
+
+2012-05-29T15:28:05.000000Z
+01849b3658a7f851f8faee03aeb4ea77
 2012-04-23T16:28:30.904106Z
 12
 ei09063
@@ -24,24 +58,19 @@ ei09063
 
 
 
-6cdc1ebb-d8b6-41a6-9179-64968aa3b53a
-
-contrib
-dir
-
-service
-dir
+
+
+
+
+
+
+
+12320
 
 auth
 dir
 
-external
-dir
-
 cache
-dir
-
-io
 dir
 
 config.php
@@ -50,7 +79,7 @@ file
 
 
 
-2012-05-22T23:34:52.234793Z
+2012-05-29T15:28:05.000000Z
 1bd9b90dd4370db61f89086520478923
 2012-04-23T16:28:30.904106Z
 12
@@ -78,37 +107,15 @@ ei09063
 
 4146
 
-apiClient.php
-file
-
-
-
-
-2012-05-22T23:34:52.335497Z
-01849b3658a7f851f8faee03aeb4ea77
-2012-04-23T16:28:30.904106Z
-12
-ei09063
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-12320
+contrib
+dir
+
+external
+dir
+
+io
+dir
+
+service
+dir
 

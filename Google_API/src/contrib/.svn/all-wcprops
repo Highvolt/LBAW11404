@@ -3,17 +3,47 @@ svn:wc:ra_dav:version-url
 V 67
 /repos/lbaw11404/!svn/ver/12/trunk/lbaw11404/Google_API/src/contrib
 END
+apiUrlshortenerService.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/lbaw11404/!svn/ver/12/trunk/lbaw11404/Google_API/src/contrib/apiUrlshortenerService.php
+END
+apiSiteVerificationService.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/lbaw11404/!svn/ver/12/trunk/lbaw11404/Google_API/src/contrib/apiSiteVerificationService.php
+END
+apiGanService.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/lbaw11404/!svn/ver/12/trunk/lbaw11404/Google_API/src/contrib/apiGanService.php
+END
 apiBloggerService.php
 K 25
 svn:wc:ra_dav:version-url
 V 89
 /repos/lbaw11404/!svn/ver/12/trunk/lbaw11404/Google_API/src/contrib/apiBloggerService.php
 END
-apiAdsenseService.php
+apiCalendarService.php
 K 25
 svn:wc:ra_dav:version-url
-V 89
-/repos/lbaw11404/!svn/ver/12/trunk/lbaw11404/Google_API/src/contrib/apiAdsenseService.php
+V 90
+/repos/lbaw11404/!svn/ver/12/trunk/lbaw11404/Google_API/src/contrib/apiCalendarService.php
+END
+apiFreebaseService.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/lbaw11404/!svn/ver/12/trunk/lbaw11404/Google_API/src/contrib/apiFreebaseService.php
+END
+apiOauth2Service.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/lbaw11404/!svn/ver/12/trunk/lbaw11404/Google_API/src/contrib/apiOauth2Service.php
 END
 apiPlusService.php
 K 25
@@ -27,53 +57,11 @@ svn:wc:ra_dav:version-url
 V 87
 /repos/lbaw11404/!svn/ver/12/trunk/lbaw11404/Google_API/src/contrib/apiTasksService.php
 END
-apiBigqueryService.php
-K 25
-svn:wc:ra_dav:version-url
-V 90
-/repos/lbaw11404/!svn/ver/12/trunk/lbaw11404/Google_API/src/contrib/apiBigqueryService.php
-END
-apiAnalyticsService.php
-K 25
-svn:wc:ra_dav:version-url
-V 91
-/repos/lbaw11404/!svn/ver/12/trunk/lbaw11404/Google_API/src/contrib/apiAnalyticsService.php
-END
-apiShoppingService.php
-K 25
-svn:wc:ra_dav:version-url
-V 90
-/repos/lbaw11404/!svn/ver/12/trunk/lbaw11404/Google_API/src/contrib/apiShoppingService.php
-END
-apiWebfontsService.php
-K 25
-svn:wc:ra_dav:version-url
-V 90
-/repos/lbaw11404/!svn/ver/12/trunk/lbaw11404/Google_API/src/contrib/apiWebfontsService.php
-END
-apiModeratorService.php
-K 25
-svn:wc:ra_dav:version-url
-V 91
-/repos/lbaw11404/!svn/ver/12/trunk/lbaw11404/Google_API/src/contrib/apiModeratorService.php
-END
-apiUrlshortenerService.php
-K 25
-svn:wc:ra_dav:version-url
-V 94
-/repos/lbaw11404/!svn/ver/12/trunk/lbaw11404/Google_API/src/contrib/apiUrlshortenerService.php
-END
 apiTranslateService.php
 K 25
 svn:wc:ra_dav:version-url
 V 91
 /repos/lbaw11404/!svn/ver/12/trunk/lbaw11404/Google_API/src/contrib/apiTranslateService.php
-END
-apiPredictionService.php
-K 25
-svn:wc:ra_dav:version-url
-V 92
-/repos/lbaw11404/!svn/ver/12/trunk/lbaw11404/Google_API/src/contrib/apiPredictionService.php
 END
 apiCustomsearchService.php
 K 25
@@ -81,17 +69,23 @@ svn:wc:ra_dav:version-url
 V 94
 /repos/lbaw11404/!svn/ver/12/trunk/lbaw11404/Google_API/src/contrib/apiCustomsearchService.php
 END
+apiAdsenseService.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/lbaw11404/!svn/ver/12/trunk/lbaw11404/Google_API/src/contrib/apiAdsenseService.php
+END
 apiPagespeedonlineService.php
 K 25
 svn:wc:ra_dav:version-url
 V 97
 /repos/lbaw11404/!svn/ver/12/trunk/lbaw11404/Google_API/src/contrib/apiPagespeedonlineService.php
 END
-apiOauth2Service.php
+apiBooksService.php
 K 25
 svn:wc:ra_dav:version-url
-V 88
-/repos/lbaw11404/!svn/ver/12/trunk/lbaw11404/Google_API/src/contrib/apiOauth2Service.php
+V 87
+/repos/lbaw11404/!svn/ver/12/trunk/lbaw11404/Google_API/src/contrib/apiBooksService.php
 END
 apiOrkutService.php
 K 25
@@ -99,23 +93,29 @@ svn:wc:ra_dav:version-url
 V 87
 /repos/lbaw11404/!svn/ver/12/trunk/lbaw11404/Google_API/src/contrib/apiOrkutService.php
 END
-apiGanService.php
+apiAnalyticsService.php
 K 25
 svn:wc:ra_dav:version-url
-V 85
-/repos/lbaw11404/!svn/ver/12/trunk/lbaw11404/Google_API/src/contrib/apiGanService.php
+V 91
+/repos/lbaw11404/!svn/ver/12/trunk/lbaw11404/Google_API/src/contrib/apiAnalyticsService.php
 END
-apiSiteVerificationService.php
+apiModeratorService.php
 K 25
 svn:wc:ra_dav:version-url
-V 98
-/repos/lbaw11404/!svn/ver/12/trunk/lbaw11404/Google_API/src/contrib/apiSiteVerificationService.php
+V 91
+/repos/lbaw11404/!svn/ver/12/trunk/lbaw11404/Google_API/src/contrib/apiModeratorService.php
 END
-apiCalendarService.php
+apiWebfontsService.php
 K 25
 svn:wc:ra_dav:version-url
 V 90
-/repos/lbaw11404/!svn/ver/12/trunk/lbaw11404/Google_API/src/contrib/apiCalendarService.php
+/repos/lbaw11404/!svn/ver/12/trunk/lbaw11404/Google_API/src/contrib/apiWebfontsService.php
+END
+apiPredictionService.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/lbaw11404/!svn/ver/12/trunk/lbaw11404/Google_API/src/contrib/apiPredictionService.php
 END
 apiLatitudeService.php
 K 25
@@ -123,15 +123,15 @@ svn:wc:ra_dav:version-url
 V 90
 /repos/lbaw11404/!svn/ver/12/trunk/lbaw11404/Google_API/src/contrib/apiLatitudeService.php
 END
-apiFreebaseService.php
+apiBigqueryService.php
 K 25
 svn:wc:ra_dav:version-url
 V 90
-/repos/lbaw11404/!svn/ver/12/trunk/lbaw11404/Google_API/src/contrib/apiFreebaseService.php
+/repos/lbaw11404/!svn/ver/12/trunk/lbaw11404/Google_API/src/contrib/apiBigqueryService.php
 END
-apiBooksService.php
+apiShoppingService.php
 K 25
 svn:wc:ra_dav:version-url
-V 87
-/repos/lbaw11404/!svn/ver/12/trunk/lbaw11404/Google_API/src/contrib/apiBooksService.php
+V 90
+/repos/lbaw11404/!svn/ver/12/trunk/lbaw11404/Google_API/src/contrib/apiShoppingService.php
 END

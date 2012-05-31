@@ -1,18 +1,18 @@
 10
 
 dir
-21
-https://svn.fe.up.pt/repos/lbaw11404/trunk/lbaw11404/js
-https://svn.fe.up.pt/repos/lbaw11404
+23
+http://svn.fe.up.pt/repos/lbaw11404/trunk/lbaw11404/js
+http://svn.fe.up.pt/repos/lbaw11404
 
 
 
-2012-05-21T10:25:08.560376Z
-21
+2012-05-29T18:56:47.363318Z
+22
 ei09063
 
 
-
+svn:special svn:externals svn:needs-lock
 
 
 
@@ -25,40 +25,13 @@ ei09063
 
 
 6cdc1ebb-d8b6-41a6-9179-64968aa3b53a
-
-login.js
-file
-
-
-
-
-2012-05-22T23:35:12.082503Z
-44ccfec96d26a3d94dd61975d0a68892
-2012-05-21T10:25:08.560376Z
-21
-ei09063
 
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3092
+0
 
 calendar.js
 file
@@ -66,7 +39,7 @@ file
 
 
 
-2012-05-22T23:35:12.246745Z
+2012-05-29T15:28:06.000000Z
 93b7f4045ac3cf368b2964eb370ce872
 2012-05-03T13:50:14.533692Z
 20
@@ -93,4 +66,72 @@ ei09063
 
 
 3324
+
+login.js
+file
+
+
+
+
+2012-05-29T15:28:06.000000Z
+92bbdd52f8094bf069dc6b36335cf67c
+2012-05-29T18:56:47.363318Z
+22
+ei09063
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3877
+
+perfil.js
+file
+
+
+
+
+2012-05-29T15:28:06.000000Z
+0ace672a0af6e867db177bdf86b29fa2
+2012-05-29T18:56:47.363318Z
+22
+ei09063
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+163
 
